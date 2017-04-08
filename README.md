@@ -14,7 +14,10 @@ To achieve this goal, I plan to use supervised machine learning random forest al
 Creating this model can be broken down into a few key steps:
 
 
-1] 	Gather appropriate data
-2] 	Prepare and transform data
-3] 	Choose a machine learning algorithm (Random Forest)
-4] 	Train, Test and re-evaluate the model
+1]  Form a clear question 	
+2]  Gather appropriate data
+3] 	Prepare and transform data
+4]  Explore the data
+5] 	Choose a machine learning algorithm (Random Forest)
+6] 	Train, Test and re-evaluate the model
+7]  Communicate and Visualize results

@@ -1,0 +1,79 @@
+Assignment 5.1:  
+
+Title:   Human Body Temperature Analysis
+ 
+1 ]  Introduction:
+
+Human body temperature that is considered “normal” can be associated with the average temperature range found in humans. Individual body temperature depends upon a number of factors such as age, the activity level, health at time of measurement, gender, geography, time of day, the place in the body at which the measurement is made, and emotional state.
+
+From the questions posed in the assignment, it appears that the purpose is to analyze a population of human temperature data to do the following: 
+
+1:  Verify the accuracy of the human population mean of 98.6 degrees F and associated population
+standard deviation using statistically sound assumptions and methods
+2:  Determine what temperature should we consider someone' temperature to be abnormal.
+3:  Is there a significant difference between males and females in normal temperature
+
+2 ] Methods
+
+Data Collection
+
+For this analysis, I used the data preselected for this assignment in the file human_body_temperature.csv. This data was provided from a paper written that was supported by a dataset created by Dr. Levine and Wasserman of the American Medical Association. While it’s not clear how the data was collected, it would be interesting to learn more about how the researcher collected the data and what sampling method was used for the sample provided for this assignment. The file has 130 observations with three variables (temperature, gender and heart rate)
+
+Exploratory Analysis
+
+Exploratory analysis was performed by examining tables and plots of the observed data.  The questions posed in the assignment guided my decision on representations I thought would be best to write and graphically display my answers as follows
+
+1]  Is the distribution of body temperatures normal?
+The following plots produced in Python provide summarization of the main characteristics. It appears that this relative frequency distribution (histogram) does appear to approach normality:
+ 
+
+
+
+2] Is the sample size large? Are the observations independent?
+From the summary table below, the sample size can be considered “large” because the number of observations is greater than 30.  Additionally the observations are independent because temperature measurement between each subject does not depend on other subjects.
+
+ 
+
+
+Statistical Modeling
+
+In the assignment, question #3 was posed as follows:
+
+“Is the true population mean really 98.6 degrees F?”
+
+To answer this question understand information about the population mean, I used to following inferential statistical process to develop answers and conclusions:
+
+Step1: Determine research and null hypothesis
+Step2: Select a level of significance
+Step3: Compute the test statistic (Z or T)
+Step4: Find the p-value 
+Step5: Compare the calculated p-value with  alpha level from step 2
+Step6: State the Conclusion
+
+
+
+Reproducibility
+
+All analysis performed in this report are reproduced in jupyter notebook posted to my github.com using the Python programming language.  To reproduce the exact results presented in this report, one can download the python code and associated .csv file for analysis.
+
+
+Results
+
+The human body temperature data used in this analysis contains information 
+
+Conclusions
+
+My analysis suggests the following about the questions posed at the beginning of the analysis:
+
+1:  Verify the accuracy of the human population mean of 98.6 degrees F and associated population
+standard deviation using statistically sound assumptions and methods
+2:  Determine what temperature should we consider someone' temperature to be abnormal.
+3:  Is there a significant difference between males and females in normal temperature
+
+References
+
+1.	 Usc data. URL: httpw://www.gyoua.dcom Accessed 1/31/2015
+2.	
+
+
+
